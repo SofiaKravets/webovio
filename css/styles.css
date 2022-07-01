@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+}
+
+:root {
+    --text-color: rgba(33, 56, 66, 0.6);
+    --text-color-title: rgba(77, 83, 60, 1);
+    --text-color-white: rgba(255, 255, 255, 1);
+    --accent-color: rgba(255, 215, 35, 1);
+    --footer-color: rgba(182, 193, 151, 1);
+    --background-color: #F2F2F2;
+}
+
+body {
+    font-family: "Poppins";
+    color: var(--text-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
